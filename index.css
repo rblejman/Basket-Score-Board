@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "CursedTimer"; /* Name your font family anything you like */
+  src: url("/fonts/CursedTimerUlil-Aznm.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;
+   
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card{
+         
+     text-align: center;     
+     color: white;
+     
+    
+}
+
+#teamName{
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 21px;
+}
+
+.display-home, .display-guest{
+    font-family: CursedTimer;
+    font-size: 90px;
+    font-weight: 400;
+    font-style: regular;
+    color: #F94F6D;     
+    width: 155px-20px-18px;
+    height: 120px-20px; 
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px 0;
+    margin-bottom: 26px;
+    padding: 20px 20px 0px 18px
+   
+
+   
+}
+
+.btn{    
+    font-family: CursedTimer;
+    font-size: 18px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;    
+}
+.reset{
+    display: block;
+    margin: 20px auto;
+    font-family: inherit;
+    color: white;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
